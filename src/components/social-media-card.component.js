@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button, Row, Col, Image } from "react-bootstrap";
+import { Button, Row, Col, Image } from "react-bootstrap";
 
 class SocialMediaCard extends React.Component {
     render(){
