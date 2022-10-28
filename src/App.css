@@ -1,0 +1,62 @@
+
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.body {
+  background-image: url(./img/background1.JPG), url(./img/background2.jpg);
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position-x: 50%;
+  height: 100%;
+}
+
+.footer {
+  text-align: center;
+  background-color: #282c34;
+  color: aliceblue;
+}
+
+.card {
+  background-color: #282c3496;
+  color: aliceblue;
+  margin-top: 10px;
+
+}
+
+.social-media-card{
+  width: 50%;
+  font-size: large;
+}
+
+.social-media-img {
+  width: 2rem; 
+  height: 2rem;
+}
+
+#fb-button {
+  background-color: #4267B2;
+}
+
+#ig-button {
+  /* background: rgb(251,173,80);
+  background: linear-gradient(90deg, rgba(251,173,80,1) 0%, rgba(138,58,185,1) 100%); */
+  background-color: #F56040;
+}
+
+#tt-button {
+  background-color: black;
+}
+
+#yt-button {
+  background-color: red;
+}
+
+#sp-button {
+  background-color: #1DB954;
+}
+
+
+
+
