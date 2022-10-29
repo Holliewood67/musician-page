@@ -27,7 +27,7 @@ function App() {
         </Row>
         <Row className="footer">
           <Col>
-            <a href="https://www.flaticon.com/free-icons" title="icon attribution">Icons created by Grow studio - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons" title="icon attribution">Icons created by Grow studio and Freepik - Flaticon</a>
           </Col>
         </Row>
       </Container>
