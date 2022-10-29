@@ -5,7 +5,7 @@
 }
 
 .body {
-  background-image: url(.img/background1.JPG);
+  background-image: url(./img/background1.jpg);
   background-size: cover;
   background-repeat: repeat-y;
   background-position-x: 50%;
