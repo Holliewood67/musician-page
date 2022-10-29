@@ -1,13 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import NavigationBar from './components/navigation-bar.component';
 import HomePage from './pages/home.page';
 import ConstructionPage from './pages/construction.page';
 
 import { Container, Row, Col } from 'react-bootstrap';
+
 
 function App() {
   return (
