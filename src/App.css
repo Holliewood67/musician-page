@@ -1,18 +1,13 @@
 
 .App {
+  min-height: 100vh;
   text-align: center;
-  height: 100vh;
-}
-
-.body {
-  background-image: url(./img/background1.jpg);
   background-size: cover;
-  background-repeat: repeat-y;
-  background-position-x: 50%;
-  height: 100%;
+  background-position-x: 40%;
 }
 
 .footer {
+  bottom: 0;
   text-align: center;
   background-color: #282c34;
   color: aliceblue;
@@ -22,10 +17,10 @@
   background-color: #282c3496;
   color: aliceblue;
   margin-top: 10px;
-
 }
 
 .social-media-card{
+  box-shadow: 10px 10px 20px black;
   width: 50%;
   font-size: large;
 }
@@ -34,6 +29,41 @@
   width: 2rem; 
   height: 2rem;
 }
+
+.home-page {
+  background-image: url(./img/background1.jpg);
+}
+
+.lyrics-page {
+  background-image: url(./img/background2.jpg);
+}
+
+
+.epk-page {
+  background-image: url(./img/epkpic2.JPG);
+}
+
+.bio-card {
+  height: auto;
+}
+
+.promo {
+  box-shadow: 10px 10px 20px black;
+  margin-bottom: 15px;
+}
+
+.promo-pic-vert {
+  height: 24em;
+}
+
+.promo-pic-horz {
+  height: 17em;
+}
+
+.sdw {
+  box-shadow: 10px 10px 20px black;
+}
+
 
 #fb-button {
   background-color: #4267B2;

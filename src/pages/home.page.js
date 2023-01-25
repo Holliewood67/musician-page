@@ -5,7 +5,7 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 class HomePage extends React.Component {
     render () {
         return (
-            <Container>
+            <Container className="home-page App">
             <Row >
               <Col lg={6} className="m-auto">
                 <Card className="card">
@@ -18,7 +18,7 @@ class HomePage extends React.Component {
               </Col>
             </Row>
             <Row>
-              <Col lg={6} className="mx-auto my-auto">
+              <Col lg={6} className="mx-auto my-3">
                 <SocialMedia />
               </Col>
             </Row>

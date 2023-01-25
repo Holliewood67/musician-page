@@ -5,7 +5,7 @@ import { Container, Row, Col, Card  } from "react-bootstrap";
 class ConstructionPage extends React.Component {
     render () {
         return (
-            <Container>
+            <Container className="lyrics-page App">
                 <Row>
                     <Col>
                         <Card>

@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 class NavigationBar extends React.Component {
     render() {
@@ -12,11 +11,14 @@ class NavigationBar extends React.Component {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link>
-                            <Link className="nav-link" to={"/home"}>Home</Link>
+                        <Nav.Link className="nav-link" href={"/home"}>
+                            Home
                         </Nav.Link>
-                        <Nav.Link>
-                        <Link className="nav-link" to={"/lyrics"}>Lyrics</Link>
+                        <Nav.Link className="nav-link" href={"/lyrics"}>
+                            Lyrics
+                        </Nav.Link>
+                        <Nav.Link className="nav-link" href={"/epk"}>
+                            EPK
                         </Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
