@@ -4,8 +4,8 @@ import { Card, Row, Col, Image } from "react-bootstrap";
 const apkpic = require("../img/epkpic1.jpg");
 const promopic1 = require("../img/epkpic3.jpg");
 const promopic2 = require("../img/background2.jpg");
-const promopic3 = require("../img/epkpic2.JPG");
-const promopic4 = require("../img/epkpic4.JPG");
+const promopic3 = require("../img/epkpic2.jpg");
+const promopic4 = require("../img/epkpic4.jpg");
 
 class PromoPics extends React.Component {
     render() {
