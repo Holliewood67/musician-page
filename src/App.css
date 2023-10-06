@@ -16,7 +16,10 @@
 .card {
   background-color: #282c3496;
   color: aliceblue;
-  margin-top: 10px;
+}
+
+.card-image {
+  height: 50%;
 }
 
 .social-media-card{

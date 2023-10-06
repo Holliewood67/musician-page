@@ -1,17 +1,25 @@
 import React from "react";
-import { Col, Card } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 class LatestRelease extends React.Component {
     render() {
         return(
-            <Col xs={12} md={4}>
-                <Card className="card">
-                    <Card.Title> My Latest Release</Card.Title>
-                    <Card.Body>
-                        <iframe src="https://open.spotify.com/embed/track/7IR8iDaXrA68oGabDk6VLF?utm_source=generator"    allowfullscreen="" width="100%" height="360" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="One Word"/>
-                    </Card.Body>
-                </Card>
-            </Col>
+            <Row>
+                <Row>
+                    <h1> My Latest Releases</h1>
+                </Row>
+                <Row className="py-3">
+                    <Col xs={12} md={4}>
+                        <iframe src="https://open.spotify.com/embed/track/72Qtry5Jeg2wKZjHpVIfwb?si=652e1449288a4f2d"  allowfullscreen="" width="100%" height="360" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="One Word"/>
+                    </Col>
+                    <Col xs={12} md={4}>
+                        <iframe src="https://open.spotify.com/embed/track/7IR8iDaXrA68oGabDk6VLF?si=30b8640edd634f3d"  allowfullscreen="" width="100%" height="360" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="One Word"/>
+                    </Col>
+                    <Col xs={12} md={4}>
+                        <iframe src="https://open.spotify.com/embed/track/2PLslE4nPi1pnjHDg6A6gL?si=390f06097fad4df9"    allowfullscreen="" width="100%" height="360" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="One Word"/>
+                    </Col>
+                </Row>
+            </Row>
         )
     }
 }

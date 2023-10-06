@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Card  } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 
 class ConstructionPage extends React.Component {
@@ -8,16 +8,15 @@ class ConstructionPage extends React.Component {
             <Container className="lyrics-page App">
                 <Row>
                     <Col>
-                        <Card>
-                            <Card.Title>
-                                Uh oh! 
-                            </Card.Title>
-                            <Card.Text>
-                            Looks like this page is still under construction. Check back later for more content! 
-                            </Card.Text>
-                        </Card>
+                        <h1>Uh oh! </h1>
+                        <p>Looks like this page is still under construction. Check back later for more content!</p> 
                     </Col>
                 </Row>
+                <Row><h1 className="text-black">-</h1></Row>
+                <Row><h1 className="text-black">-</h1></Row>
+                <Row><h1 className="text-black">-</h1></Row>
+                <Row><h1 className="text-black">-</h1></Row>
+                <Row><h1 className="text-black">-</h1></Row>
             </Container>
         )
     }

@@ -1,43 +1,29 @@
 import React from "react";
-import { Card, Row, Col, Image } from "react-bootstrap";
+import { Carousel, Row, Col, Image } from "react-bootstrap";
 
-const apkpic = require("../img/epkpic1.jpg");
-const promopic1 = require("../img/epkpic3.jpg");
-const promopic2 = require("../img/background2.jpg");
-const promopic3 = require("../img/epkpic2.jpg");
-const promopic4 = require("../img/epkpic4.jpg");
+const promopic1 = require("../img/epkpic1.png");
+const promopic2 = require("../img/epkpic2.png");
+const promopic3 = require("../img/epkpic3.png");
 
 class PromoPics extends React.Component {
     render() {
         return(
-            <Card className="mb-3 p-2">
-                        <Card.Title>Promo Pics</Card.Title>
-                        <Card.Body>
-                            <Row className="p-2">
-                                <Col xs={12} md={4}>
-                                    <Image className="img-fluid promo promo-pic-vert" src={promopic1}/>
-                                </Col>
-                                <Col xs={12} md={4}>
-                                    <Image className="img-fluid promo promo-pic-vert" src={promopic2}/>
-                                </Col>
-                                <Col xs={12} md={4}>
-                                    <Image className="img-fluid promo promo-pic-vert" src={apkpic}/>
-                                </Col>
-                            </Row>
-                            <Row className="justify-content-md-center">
-                                <Col xs={12} md={4}>
-                                    <Image className="img-fluid promo promo-pic-horz" src={promopic3}/>
-                                </Col>
-                                <Col xs={12} md={4}>
-                                    <Image className="img-fluid promo promo-pic-horz" src={promopic4}/>
-                                </Col>
-                            </Row>
-                            <Row>
-                                
-                            </Row>
-                            
-                        </Card.Body>
-                    </Card>
+            <Row>
+                <Col className="m-auto" xl={9}>
+                    <Carousel  fade  indicators={false} interval={10000} >
+                        <Carousel.Item  >
+                            <Image className="w-100"  src={promopic1} text="First slide" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <Image className="w-100" src={promopic2} text="Second slide" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <Image className="w-100" src={promopic3} text="Third slide" />
+                        </Carousel.Item>
+                    </Carousel>
+                </Col>
+            </Row>
+
         )
     }
 }
