@@ -17,7 +17,7 @@ function App() {
       <Row>
         <Router>
               <Routes>
-                <Route path='/' element={<HomePage/>} />
+                <Route path='/' element={<EpkPage/>} />
                 <Route path='/home' element={<EpkPage/>} />
                 <Route path="/lyrics" element={<ConstructionPage/>} />
               </Routes>
