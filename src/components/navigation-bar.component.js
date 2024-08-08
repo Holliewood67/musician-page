@@ -17,7 +17,7 @@ class NavigationBar extends React.Component {
                         {/* <Nav.Link className="nav-link text-warning" href={"/lyrics"}>
                             Lyrics
                         </Nav.Link> */}
-                        <Nav.Link className="nav-link text-warning" href={"https://musicalmonstersshop.com/collections/all"} target={"_blank"}>
+                        <Nav.Link className="nav-link text-warning" href={"https://musicalmonstersshop.com/collections/all"}>
                             Store
                         </Nav.Link>
                     </Nav>
