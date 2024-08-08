@@ -10,13 +10,13 @@ class LatestRelease extends React.Component {
                 </Row>
                 <Row className="py-3">
                     <Col xs={12} md={4}>
+                        <iframe src="https://open.spotify.com/embed/track/17rQsQohH9GusanCNYXUVI?utm_source=generator"  allowfullscreen="" width="100%" height="360" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="One Word"/>
+                    </Col>
+                    <Col xs={12} md={4}>
                         <iframe src="https://open.spotify.com/embed/track/72Qtry5Jeg2wKZjHpVIfwb?si=652e1449288a4f2d"  allowfullscreen="" width="100%" height="360" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="One Word"/>
                     </Col>
                     <Col xs={12} md={4}>
                         <iframe src="https://open.spotify.com/embed/track/7IR8iDaXrA68oGabDk6VLF?si=30b8640edd634f3d"  allowfullscreen="" width="100%" height="360" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="One Word"/>
-                    </Col>
-                    <Col xs={12} md={4}>
-                        <iframe src="https://open.spotify.com/embed/track/2PLslE4nPi1pnjHDg6A6gL?si=390f06097fad4df9"    allowfullscreen="" width="100%" height="360" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="One Word"/>
                     </Col>
                 </Row>
             </Row>

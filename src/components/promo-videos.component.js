@@ -16,7 +16,7 @@ class PromoVids extends React.Component {
                         <Ratio >
                             <iframe
                                 className="promo"
-                                src='https://www.youtube.com/embed/AiYdouT_7Qs'
+                                src='https://www.youtube.com/embed/5mLmzrPC1m8'
                                 frameborder='0'
                                 allow='autoplay; encrypted-media'
                                 allowfullscreen
@@ -28,7 +28,7 @@ class PromoVids extends React.Component {
                         <Ratio>
                             <iframe
                                 className="promo"
-                                src='https://www.youtube.com/embed/OEcK6fhrlH8'
+                                src='https://www.youtube.com/embed/ZMAvN_ZYosc'
                                 frameborder='1'
                                 allow='autoplay; encrypted-media'
                                 allowfullscreen
@@ -40,7 +40,7 @@ class PromoVids extends React.Component {
                         <Ratio>
                             <iframe
                                 className="promo"
-                                src='https://www.youtube.com/embed/59DiiR3uY0o'
+                                src='https://www.youtube.com/embed/I2qYE4QkhaU'
                                 frameborder='0'
                                 allow='autoplay; encrypted-media'
                                 allowfullscreen
