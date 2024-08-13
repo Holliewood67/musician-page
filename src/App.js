@@ -6,6 +6,7 @@ import HomePage from './pages/home.page';
 import ConstructionPage from './pages/construction.page';
 import EpkPage from './pages/epk.page'
 import Footer from './components/footer.component';
+import MonsterPage from './pages/monsters.page'
 
 import { Container, Row } from 'react-bootstrap';
 
@@ -17,9 +18,10 @@ function App() {
       <Row>
         <Router>
               <Routes>
-                <Route path='/' element={<EpkPage/>} />
-                <Route path='/home' element={<EpkPage/>} />
+                <Route path='/' element={<HomePage/>} />
+                <Route path='/home' element={<HomePage/>} />
                 <Route path="/lyrics" element={<ConstructionPage/>} />
+                <Route path="/monsters" element={<MonsterPage/>} />
               </Routes>
         </Router>
       </Row>

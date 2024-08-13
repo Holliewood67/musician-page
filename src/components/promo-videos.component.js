@@ -11,15 +11,15 @@ class PromoVids extends React.Component {
                     Promo Clips
                 </h1>
                     <Fade bottom>
-                <Row className="py-2" fluid>
+                <Row className="py-2">
                     <Col xs={12} md={4} >
                         <Ratio >
                             <iframe
                                 className="promo"
                                 src='https://www.youtube.com/embed/5mLmzrPC1m8'
-                                frameborder='0'
+                                frameBorder='0'
                                 allow='autoplay; encrypted-media'
-                                allowfullscreen
+                                allowfullScreen
                                 title='Promo1'
                             />
                         </Ratio>
@@ -29,9 +29,9 @@ class PromoVids extends React.Component {
                             <iframe
                                 className="promo"
                                 src='https://www.youtube.com/embed/ZMAvN_ZYosc'
-                                frameborder='1'
+                                frameBorder='1'
                                 allow='autoplay; encrypted-media'
-                                allowfullscreen
+                                allowfullScreen
                                 title='Promo2'
                             />
                         </Ratio>
@@ -41,9 +41,9 @@ class PromoVids extends React.Component {
                             <iframe
                                 className="promo"
                                 src='https://www.youtube.com/embed/I2qYE4QkhaU'
-                                frameborder='0'
+                                frameBorder='0'
                                 allow='autoplay; encrypted-media'
-                                allowfullscreen
+                                allowfullScreen
                                 title='Promo3'
                             />
                         </Ratio>

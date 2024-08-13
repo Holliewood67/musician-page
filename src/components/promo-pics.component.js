@@ -2,7 +2,7 @@ import React from "react";
 import { Carousel, Row, Col, Image } from "react-bootstrap";
 
 const promopic1 = require("../img/epkpic1.png");
-const promopic2 = require("../img/epkpic2.png");
+const promopic2 = require("../img/epkpics/ethan-cantrell-1.png");
 const promopic3 = require("../img/epkpic3.png");
 
 class PromoPics extends React.Component {

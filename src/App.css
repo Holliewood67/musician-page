@@ -1,10 +1,19 @@
-
 .App {
   min-height: 100vh;
   text-align: center;
   background-size: cover;
   background-position-x: 40%;
+
 }
+h4 {
+  color: aliceblue;
+}
+
+.monster-card-pic {
+  background-color: black;
+}
+
+
 
 .footer {
   bottom: 0;
@@ -14,8 +23,11 @@
 }
 
 .card {
-  background-color: #282c3496;
   color: aliceblue;
+}
+
+.monster-card {
+  background-color: orange;
 }
 
 .card-image {
@@ -31,19 +43,6 @@
 .social-media-img {
   width: 2rem; 
   height: 2rem;
-}
-
-.home-page {
-  background-image: url(./img/background1.jpg);
-}
-
-.lyrics-page {
-  background-image: url(./img/background2.jpg);
-}
-
-
-.epk-page {
-  background-image: url(./img/epkpic2.jpg);
 }
 
 .bio-card {

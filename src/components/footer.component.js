@@ -1,14 +1,16 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 
 class Footer extends React.Component{
     render() {
         return (
-            <Row className="mt-5">
-                <Col >
-                <h3>Thank you for visiting!</h3>
-                </Col>
-            </Row>
+            <Container>
+                <Row className="mt-5">
+                    <Col >
+                    <h3>Thank you for visiting!</h3>
+                    </Col>
+                </Row>
+            </Container>
   
         )
     }
