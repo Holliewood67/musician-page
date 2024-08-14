@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Row, Col, Button } from "react-bootstrap";
+import { Card, Row, Col } from "react-bootstrap";
 
 // const cardPic = require(`../img/epkpics/${this.props.cardPic}.png`)
 
@@ -7,12 +7,13 @@ import { Card, Row, Col, Button } from "react-bootstrap";
 class MonsterCard extends React.Component {
     render () {
         return (
-            <Col fluid md={4} sm={6} className="align-items-center mb-3">
-                <Button variant="monster-card-pic">
-                    <Card className="my-1">
+            <Col fluid lg={4} sm={6} className=" align-items-center mb-3">
+                    <Card style={{ cursor: "pointer" }} className="flex-fill">
                         <Row>
                             <Col >
+                <a  href="epk">
                                 <Card.Img className=" monster-card-pic" variant="top" src={require(`../img/epkpics/${this.props.cardPic}.png`)} />
+                </a >
                             </Col>
                         </Row>
                         <Row >
@@ -23,7 +24,6 @@ class MonsterCard extends React.Component {
                             </Col>
                         </Row>
                     </Card>
-                </Button>
             </Col>
         )
     }
