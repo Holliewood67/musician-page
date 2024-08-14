@@ -9,8 +9,8 @@ class WelcomeHeader extends React.Component{
         return (
             <Row className="align-items-center m-auto">
             <Col md={5}>
-              <h1>Welcome to EthanCantrell.com</h1>
-              <h2>Home of</h2>
+              <h1>Welcome</h1>
+              <h2>To the home of</h2>
               <h1>Ethan Cantrell's</h1>
               <h1>Musical Monsters</h1>
             </Col>
