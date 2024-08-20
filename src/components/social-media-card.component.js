@@ -1,16 +1,12 @@
 import React from "react";
 import { Button, Image } from "react-bootstrap";
 
-class SocialMediaCard extends React.Component {
-    render(){
+export default function SocialMediaCard ({urlPath, imagePath}) {
         return(
             
-                 <Button className="bg-black border-0 " href={this.props.urlPath} >
-                    <Image  className="social-media-img" src={this.props.imagePath} />
+                 <Button className="bg-black border-0 " href={urlPath} >
+                    <Image  className="social-media-img" src={imagePath} />
                  </Button>
 
         )
     }
-}
-
-export default SocialMediaCard;

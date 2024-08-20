@@ -1,8 +1,7 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 
-class Footer extends React.Component{
-    render() {
+export default function Footer() {
         return (
             <Container>
                 <Row className="mt-5">
@@ -14,6 +13,3 @@ class Footer extends React.Component{
   
         )
     }
-}
-
-export default Footer;

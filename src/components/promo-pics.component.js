@@ -5,11 +5,10 @@ const promopic1 = require("../img/epkpic1.png");
 const promopic2 = require("../img/epkpics/ethan-cantrell-1.png");
 const promopic3 = require("../img/epkpic3.png");
 
-class PromoPics extends React.Component {
-    render() {
+export default function PromoPics() {
         return(
             <Row>
-                <Col className="m-auto" xl={9}>
+                <Col  xl={9}>
                     <Carousel  fade  indicators={false} interval={10000} >
                         <Carousel.Item  >
                             <Image className="w-100"  src={promopic1} text="First slide" />
@@ -26,6 +25,3 @@ class PromoPics extends React.Component {
 
         )
     }
-}
-
-export default PromoPics;

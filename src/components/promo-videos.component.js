@@ -3,8 +3,7 @@ import { Row, Col, Ratio } from "react-bootstrap";
 import { Fade } from "react-reveal";
 
 
-class PromoVids extends React.Component {
-    render() {
+export default function PromoVids() {
         return(
             <Row>
                 <h1>
@@ -19,7 +18,7 @@ class PromoVids extends React.Component {
                                 src='https://www.youtube.com/embed/5mLmzrPC1m8'
                                 frameBorder='0'
                                 allow='autoplay; encrypted-media'
-                                allowfullScreen
+                                allowFullScreen
                                 title='Promo1'
                             />
                         </Ratio>
@@ -31,7 +30,7 @@ class PromoVids extends React.Component {
                                 src='https://www.youtube.com/embed/ZMAvN_ZYosc'
                                 frameBorder='1'
                                 allow='autoplay; encrypted-media'
-                                allowfullScreen
+                                allowFullScreen
                                 title='Promo2'
                             />
                         </Ratio>
@@ -43,7 +42,7 @@ class PromoVids extends React.Component {
                                 src='https://www.youtube.com/embed/I2qYE4QkhaU'
                                 frameBorder='0'
                                 allow='autoplay; encrypted-media'
-                                allowfullScreen
+                                allowFullScreen
                                 title='Promo3'
                             />
                         </Ratio>
@@ -53,6 +52,3 @@ class PromoVids extends React.Component {
             </Row>
         )
     }
-}
-
-export default PromoVids;

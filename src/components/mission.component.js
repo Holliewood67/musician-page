@@ -1,8 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 
-class Mission extends React.Component {
-    render() {
+export default function Mission() {
         return(
             <>
             <Row>
@@ -23,6 +22,3 @@ class Mission extends React.Component {
 
         )
     }
-}
-
-export default Mission;

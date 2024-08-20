@@ -9,6 +9,7 @@ import Footer from './components/footer.component';
 import MonsterPage from './pages/monsters.page'
 
 import { Container, Row } from 'react-bootstrap';
+import ScrollToTop from './components/ScrollToTop.component';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <NavigationBar className="header"/>
       <Row>
         <Router>
+          <ScrollToTop />
               <Routes>
                 <Route path='/' element={<HomePage/>} />
                 <Route path='/home' element={<HomePage/>} />

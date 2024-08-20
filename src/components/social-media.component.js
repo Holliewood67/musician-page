@@ -13,10 +13,9 @@ const BCLogo = require('../icons/bandcamp.png');
 
 
 
-class SocialMedia extends React.Component {
-    render(){
+export default function SocialMedia() {
         return(
-                <Row className="py-2 mx-auto mt-3">
+                <Row className="py-2 mt-3">
                   <Row>
                   <h1>SOCIAL MEDIA</h1>
                   </Row>
@@ -43,6 +42,3 @@ class SocialMedia extends React.Component {
               </Row>
         )
     }
-}
-
-export default SocialMedia;

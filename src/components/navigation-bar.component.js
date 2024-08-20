@@ -3,17 +3,16 @@ import { Container, Row, Navbar, Nav, Image } from "react-bootstrap";
 
 const logo = require ('../img/mm.png')
 
-class NavigationBar extends React.Component {
-    render() {
+export default function NavigationBar() {
         return(
             <Row  className="p-0">
             <Navbar bg="black" variant="dark" expand="lg">
                 <Container >
-                    <Navbar.Brand className="text-warning" href="#home">
+                    <Navbar.Brand className="text-warning" href="/">
                         <Image 
                             src={logo} 
-                            width="30"
-                            height="30"
+                            width="50"
+                            height="50"
                             className="d-inline-block align-top" 
                         />
                     </Navbar.Brand>
@@ -33,6 +32,3 @@ class NavigationBar extends React.Component {
             </Row>
         )
     }
-}
-
-export default NavigationBar;
