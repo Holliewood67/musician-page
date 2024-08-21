@@ -36,7 +36,7 @@ const monsters =  {
         },
         {
             name: "Eric Ryan-Johnson",
-            pics: ["erj-1", "erj-2"],
+            pics: ["erj-1", "erj-2", "erj-3", "erj-4", "erj-5"],
             urlName: "eric-ryan-johnson",
             bioText: [
                 `Eric Ryan-Johnson is a versatile musician based in Tulsa, Oklahoma, renowned for his skills as a vocalist, guitarist, and violinist. Originally from Madison, Wisconsin, he has cultivated a diverse musical career that spans several genres, including alt-acoustic rock and traditional Irish music.`,
