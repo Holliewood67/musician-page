@@ -1,8 +1,8 @@
-export default {
+const monsters =  {
     monsters: [
         {
             name: "Ethan Cantrell",
-            pics: ["ethan-cantrell-1", "ethan-cantrell-2"],
+            pics: ["ethan-cantrell-1", "ethan-cantrell-2","ethan-cantrell-3", "ethan-cantrell-4"],
             urlName: "ethan-cantrell",
             bioText: [
                 `delivers an acoustic blend of folk and punk, infused with ska and reggae sensibilities. His music is shaped by influences such as Green Day, Woody Guthrie, Streetlight Manifesto, and Pat the Bunny, creating a sound that's both unique and dynamic.`,
@@ -16,6 +16,40 @@ export default {
             ttLink: "https://www.tiktok.com/@ethancantrellmusician",
             ytLink: "https://www.youtube.com/channel/UC9fOxoEeGQmTzzXFTQEjqRA",
             bcLink: "",
+        },
+        {
+            name: "Andrew Live",
+            pics: ["andrew-live-1", "andrew-live-2", "andrew-live-3", "andrew-live-4", "andrew-live-5"],
+            urlName: "andrew-live",
+            bioText: [
+                `has been a staple in the Tulsa, OK music scene for 27 years, playing guitar and singing at venues across the tri-state area. He currently hosts a 21+ open mic on Wednesdays at Smitty's on Main St. Jenks and an all-ages open mic on Tuesdays at Mother Road Market, alongside his solo performances at various dinner services and bars around Tulsa and its surrounding areas.`,
+                `Andrew is eager to expand his reach by adding new and exciting venues to his roster and setting up more local music showcases. His ambition also includes broadening his bookings to other areas, bringing his dynamic performances to a wider audience.`,
+                `Some of the recent venues where Andrew has performed include Good Day Tulsa, The Hunt Club, The District in Owasso, and The Patriot Golf Club. His performances have also graced CJ Moloney's, Sidecar on Cherry Street and in Jenks, and notable events like Tulsa Mayfest and the Tulsa State Fair. Whether it’s a lively bar or a sophisticated dinner service, Andrew knows how to keep the energy alive.`,
+                `Influenced by '90s alternative rock, Andrew Live’s sets now also feature elements of hip hop and R&B, covering over three hours of music. With 30 original songs under his belt, an extensive playlist, and professional sound and promotional equipment, Andrew ensures a seamless and entertaining experience for any venue. His ultimate goal is to drive sales, entertain the crowd, and create an unforgettable atmosphere.`
+            ],
+            spotifyUrl: "4OEzL5wrgHWiaEIbWbNhBT?utm_source=generator&theme=0",
+            fbLink: "https://www.facebook.com/AndrewLive143",
+            igLink: "https://www.instagram.com/andrew_live143/",
+            ttLink: "",
+            ytLink: "https://www.youtube.com/@andrewlive3428",
+            bcLink: "https://ethancantrell.bandcamp.com",
+        },
+        {
+            name: "Eric Ryan-Johnson",
+            pics: ["erj-1", "erj-2"],
+            urlName: "eric-ryan-johnson",
+            bioText: [
+                `Eric Ryan-Johnson is a versatile musician based in Tulsa, Oklahoma, renowned for his skills as a vocalist, guitarist, and violinist. Originally from Madison, Wisconsin, he has cultivated a diverse musical career that spans several genres, including alt-acoustic rock and traditional Irish music.`,
+                `Eric is deeply involved in both solo projects and collaborative efforts. His solo work features a discography with multiple albums, such as "Just a Lil' Bit of Love" (2021) and "Two Hours out of Nashville" (2022), which highlight his ability to seamlessly transition from heartfelt acoustic ballads to more experimental sounds.`,
+                `In addition to his solo career, Eric is an accomplished fiddle player and instructor. He teaches both classical violin and traditional Irish fiddle and has been an active participant in Irish music groups like Cairde na Gael. His expertise has led him to teach at various workshops and festivals, where he shares his passion for Irish music with others.`,
+                `Whether performing solo or as part of a group, Eric Ryan-Johnson brings a rich blend of musical traditions to his work, making him a dynamic and influential figure in the Tulsa music scene.`
+            ],
+            spotifyUrl: "2yh8yQClY7aQ4evzoAHzZ7?utm_source=generator&theme=0",
+            fbLink: "https://www.facebook.com/ericryanjohnsonband",
+            igLink: "https://www.instagram.com/e.ryanjohnson/",
+            ttLink: "https://www.tiktok.com/@e.ryanjohnson",
+            ytLink: "https://www.youtube.com/channel/UC2glDyvuSE9Iyz6DwSRlWfA",
+            bcLink: "https://ericryanjohnson.bandcamp.com",
         },
         {
             name: "Jeff Bush",
@@ -34,25 +68,8 @@ export default {
             ytLink: "",
             bcLink: "",
         },
-        {
-            name: "Andrew Live",
-            pics: ["andrew-live-1", "andrew-live-2"],
-            urlName: "andrew-live",
-            bioText: [
-                `has been a staple in the Tulsa, OK music scene for 27 years, playing guitar and singing at venues across the tri-state area. He currently hosts a 21+ open mic on Wednesdays at Smitty's on Main St. Jenks and an all-ages open mic on Tuesdays at Mother Road Market, alongside his solo performances at various dinner services and bars around Tulsa and its surrounding areas.`,
-                `Andrew is eager to expand his reach by adding new and exciting venues to his roster and setting up more local music showcases. His ambition also includes broadening his bookings to other areas, bringing his dynamic performances to a wider audience.`,
-                `Some of the recent venues where Andrew has performed include Good Day Tulsa, The Hunt Club, The District in Owasso, and The Patriot Golf Club. His performances have also graced CJ Moloney's, Sidecar on Cherry Street and in Jenks, and notable events like Tulsa Mayfest and the Tulsa State Fair. Whether it’s a lively bar or a sophisticated dinner service, Andrew knows how to keep the energy alive.`,
-                `Influenced by '90s alternative rock, Andrew Live’s sets now also feature elements of hip hop and R&B, covering over three hours of music. With 30 original songs under his belt, an extensive playlist, and professional sound and promotional equipment, Andrew ensures a seamless and entertaining experience for any venue. His ultimate goal is to drive sales, entertain the crowd, and create an unforgettable atmosphere.`
-            ],
-            spotifyUrl: "4OEzL5wrgHWiaEIbWbNhBT?utm_source=generator&theme=0",
-            fbLink: "https://www.facebook.com/AndrewLive143",
-            igLink: "https://www.instagram.com/andrew_live143/",
-            ttLink: "",
-            ytLink: "https://www.youtube.com/@andrewlive3428",
-            bcLink: "",
-        },
         // {
-        //     name: "",
+            //     name: "",
         //     pics: [""],
         //     urlName: "",
         //     bioText: [
@@ -70,3 +87,5 @@ export default {
         // },
     ]
 }
+
+export default monsters;

@@ -4,6 +4,12 @@ import { Link } from "react-router-dom";
 
 
 export default function MonsterCard({monster}) {
+
+    const GetPic1 = () => {
+        let index = Math.floor(Math.random() * monster.pics.length);
+        return <Card.Img className=" monster-card-pic" variant="top" src={require(`../img/epkpics/${monster.pics[index]}.png`)} />
+    }
+
         return (
             <Col  xxl={3} xl={4} md={5} sm={6} className=" align-items-center mb-5 mx-2">
                     <Card  className="flex-fill">
@@ -12,7 +18,7 @@ export default function MonsterCard({monster}) {
                         state={{monster: monster}}
                         >
                             <Col >
-                                <Card.Img className=" monster-card-pic" variant="top" src={require(`../img/epkpics/${monster.pics[0]}.png`)} />
+                            <GetPic1 />
                             </Col>
                 </Link >
                         </Row>
