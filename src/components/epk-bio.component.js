@@ -24,30 +24,30 @@ export default function EpkBio({monster})  {
         return (
                     <Row className="align-items-center justify-content-center p-2 m-auto">
                         <Col  lg={6} className="text-white ">
-                            <Fade left >
+                            <Fade>
                                     <h1 className="text-warning">{monster.name}</h1>
                                     <h5 >{monster.bioText[0]}</h5>
                                     <h5>{monster.bioText[1]}</h5>
                             </Fade>
                         </Col>
                         <Col sm={6} md={6} lg={4} className="text-white">
-                            <Fade right >
+                            <Fade>
                                 <BioPic1 />
                             </Fade>
                         </Col>
                         <Col sm={6} md={6} lg={4} className="text-white d-none d-sm-block">
-                            <Fade left >
+                            <Fade>
                                 <BioPic2 />
                             </Fade>
                         </Col>
                         <Col md={9} lg={6} className="text-white">
-                            <Fade right >
+                            <Fade>
                                     <h5>{monster.bioText[2]}</h5>
                                     <h5>{monster.bioText[3]}</h5>
                             </Fade>
                         </Col>
                         <Col sm={6} md={6} lg={4} className="text-white d-block d-sm-none">
-                            <Fade left >
+                            <Fade>
                                 <BioPic2 />
                             </Fade>
                         </Col>
