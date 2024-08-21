@@ -17,11 +17,6 @@ export default function Mission() {
                   is to provide independent musicians with the tools to take the next step in their musical journey at a reasonable cost. We aim to remove the financial barrier to creative success for indie artists. We provide connections to relevant venues for booking, resources for recording and studio production, and the manufacturing and distribution of artist merch!
                 </h4>
               </Col>
-              <Col className="text-white d-block d-sm-none">
-                <p>
-                  is to provide independent musicians with the tools to take the next step in their musical journey at a reasonable cost. We aim to remove the financial barrier to creative success for indie artists. We provide connections to relevant venues for booking, resources for recording and studio production, and the manufacturing and distribution of artist merch!
-                </p>
-              </Col>
             </Row>
           </>
 
