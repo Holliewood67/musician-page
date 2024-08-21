@@ -2,7 +2,7 @@ const monsters =  {
     monsters: [
         {
             name: "Ethan Cantrell",
-            pics: ["ethan-cantrell-1", "ethan-cantrell-2","ethan-cantrell-3", "ethan-cantrell-4"],
+            pics: ["ethan-cantrell-1", "ethan-cantrell-2","ethan-cantrell-3", "ethan-cantrell-4", "ethan-cantrell-5"],
             urlName: "ethan-cantrell",
             bioText: [
                 `delivers an acoustic blend of folk and punk, infused with ska and reggae sensibilities. His music is shaped by influences such as Green Day, Woody Guthrie, Streetlight Manifesto, and Pat the Bunny, creating a sound that's both unique and dynamic.`,
@@ -53,7 +53,7 @@ const monsters =  {
         },
         {
             name: "Jeff Bush",
-            pics: ["jeff-bush-1","jeff-bush-2"],
+            pics: ["jeff-bush-1","jeff-bush-2", "jeff-bush-3", "jeff-bush-4", "jeff-bush-5"],
             urlName: "jeff-bush",
             bioText: [
                 `is a folk punk ukulele player whose sound is as raw and emotional as it is versatile. Influenced by artists like Amigo the Devil and Weird Al, as well as classic rock, old country, and folk punk, he brings a unique blend of intensity and heartfelt storytelling to his music.`,
