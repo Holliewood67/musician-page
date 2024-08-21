@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { Row, Col, Image } from "react-bootstrap";
 import { Fade } from "react-reveal";
-import { useLocation } from "react-router-dom";
 
 
 export default function EpkBio({monster})  {
@@ -16,12 +15,12 @@ export default function EpkBio({monster})  {
                         </Col>
                         <Col sm={6} md={6} lg={4} className="text-white">
                             <Fade right >
-                                <Image rounded width="100%" src={require(`../img/epkpics/${monster.pics[0]}.png`)} />
+                                <Image roundedCircle  width="100%" src={require(`../img/epkpics/${monster.pics[0]}.png`)} />
                             </Fade>
                         </Col>
                         <Col sm={6} md={6} lg={4} className="text-white d-none d-sm-block">
                             <Fade left >
-                                <Image rounded width="100%" src={require(`../img/epkpics/${monster.pics[1]}.png`)} />
+                                <Image roundedCircle  width="100%" src={require(`../img/epkpics/${monster.pics[1]}.png`)} />
                             </Fade>
                         </Col>
                         <Col md={9} lg={6} className="text-white">
@@ -32,7 +31,7 @@ export default function EpkBio({monster})  {
                         </Col>
                         <Col sm={6} md={6} lg={4} className="text-white d-block d-sm-none">
                             <Fade left >
-                                <Image width="100%" src={require(`../img/epkpics/${monster.pics[1]}.png`)} />
+                                <Image roundedCircle  width="100%" src={require(`../img/epkpics/${monster.pics[1]}.png`)} />
                             </Fade>
                         </Col>
                     </Row>
