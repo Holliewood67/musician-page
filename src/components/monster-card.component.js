@@ -8,7 +8,7 @@ export default function MonsterCard({monster}) {
             <Col  xxl={3} xl={4} md={5} sm={6} className=" align-items-center mb-5 mx-2">
                     <Card  className="flex-fill">
                         <Row>
-                <Link  to={"/epk"}
+                <Link  to={`/epk/${monster.urlName}`}
                         state={{monster: monster}}
                         >
                             <Col >

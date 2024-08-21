@@ -3,8 +3,11 @@
   text-align: center;
   background-size: cover;
   background-position-x: 40%;
-
+  font-family: "Lacquer";
+  font-weight: 400;
+  font-style: normal;
 }
+
 h4 {
   color: aliceblue;
 }

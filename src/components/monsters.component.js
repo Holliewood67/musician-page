@@ -19,6 +19,12 @@ export default function Monsters(){
 
                     })}
                 </Row>
+                {/* <Row className="p-3 justify-content-center">
+                    {monsters.monsters.map((monster, i) => {
+                        return <MonsterCard key={i} monster={monster} />
+
+                    })}
+                </Row> */}
             </>
         )
     }

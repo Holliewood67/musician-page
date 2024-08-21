@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 
 
 import SocialMediaCard from "./social-media-card.component";
@@ -13,31 +13,18 @@ const BCLogo = require('../icons/bandcamp.png');
 
 
 
-export default function SocialMedia() {
+export default function SocialMedia({monster}) {
         return(
                 <Row className="py-2 mt-3">
                   <Row>
                   <h1>SOCIAL MEDIA</h1>
                   </Row>
                 <Row className="my-2">
-                  <Col className="my-2">                
-                    <SocialMediaCard imagePath={FBLogo} innerText=" Facebook" urlPath="https://www.facebook.com/ECMusician" />
-                  </Col>
-                  <Col className="my-2">
-                    <SocialMediaCard imagePath={IGLogo} innerText=" Instagram" urlPath="https://www.instagram.com/ethancantrellmusician/" />
-                  </Col>
-                  <Col className="my-2">
-                    <SocialMediaCard imagePath={TTLogo} innerText="TikTok" urlPath="https://www.tiktok.com/@ethancantrellmusician" />
-                  </Col>
-                  <Col className="my-2">
-                    <SocialMediaCard imagePath={SPLogo} innerText="Spotify" urlPath="https://open.spotify.com/artist/3TrHIZ92sj1YvABKrcJTQE" />
-                  </Col>
-                  <Col className="my-2">
-                    <SocialMediaCard imagePath={YTLogo} innerText="Youtube" urlPath="https://www.youtube.com/channel/UC9fOxoEeGQmTzzXFTQEjqRA" />
-                  </Col>
-                  <Col className="my-2">
-                    <SocialMediaCard imagePath={BCLogo} innerText="Bandcamp" urlPath="https://ethancantrell.bandcamp.com" />
-                  </Col>
+                    {monster.fbLink ? <SocialMediaCard imagePath={FBLogo} innerText=" Facebook" urlPath={monster.fbLink}/> : <></>}
+                    {monster.igLink ? <SocialMediaCard imagePath={IGLogo} innerText=" Instagram" urlPath={monster.igLink} /> : <></>}
+                    {monster.ttLink ? <SocialMediaCard imagePath={TTLogo} innerText="TikTok" urlPath={monster.ttLink} /> : <></>}
+                    {monster.ytLink ? <SocialMediaCard imagePath={YTLogo} innerText="Youtube" urlPath={monster.ytLink} /> : <></>}
+                    {monster.bcLink ? <SocialMediaCard imagePath={BCLogo} innerText="Bandcamp" urlPath={monster.bcLink} /> : <></>}
                 </Row>
               </Row>
         )

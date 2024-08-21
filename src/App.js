@@ -22,7 +22,7 @@ function App() {
               <Routes>
                 <Route path='/' element={<HomePage/>} />
                 <Route path='/home' element={<HomePage/>} />
-                <Route path='/epk' element={<EpkPage/>} />
+                <Route path='/epk/:monsterName' element={<EpkPage/>} />
               </Routes>
         </Router>
       </Row>
