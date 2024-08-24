@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HelmetProvider } from 'react-helmet-async';
 
 import NavigationBar from './components/navigation-bar.component';
 import HomePage from './pages/home.page';
@@ -13,9 +14,11 @@ import ScrollToTop from './components/ScrollToTop.component';
 
 
 function App() {
+  const helmetContext = {}
   return (
+    <HelmetProvider context={helmetContext}>
     <Container fluid className="bg-black text-warning text-center" >
-          <NavigationBar className="header"/>
+      <NavigationBar className="header"/>
       <Row>
         <Router>
           <ScrollToTop />
@@ -28,6 +31,7 @@ function App() {
       </Row>
       <Footer />
     </Container>
+    </HelmetProvider>
   );
 }
 

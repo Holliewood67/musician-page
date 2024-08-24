@@ -1,7 +1,5 @@
 import React from "react";
 import { Row, Col, Ratio } from "react-bootstrap";
-import { Fade } from "react-reveal";
-
 
 export default function PromoVids() {
         return(
@@ -9,7 +7,6 @@ export default function PromoVids() {
                 <h1>
                     Promo Clips
                 </h1>
-                    <Fade bottom>
                 <Row className="py-2">
                     <Col xs={12} md={4} >
                         <Ratio >
@@ -48,7 +45,6 @@ export default function PromoVids() {
                         </Ratio>
                     </Col>
                 </Row>
-                    </Fade>
             </Row>
         )
     }
